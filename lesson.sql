@@ -5,6 +5,12 @@ multiline comment
 blocks off several rows at once
 */
 
+/*SELECT
+  *
+FROM
+    PatientStay
+*/
+
 SELECT
     PatientId,
     AdmittedDate,
