@@ -69,6 +69,8 @@ FROM
 -- match the customer id in the two tables to get the first and last name
     LEFT JOIN Employee e ON c.SupportRepId = E.EmployeeId
 ORDER BY i.InvoiceDate DESC
+-- can use an inner join instead because of the database structure in this case. It may be more efficient to run if lots of records
+
 
 -- List the customers who have spent more than £45
 
